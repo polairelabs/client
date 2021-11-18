@@ -1,10 +1,10 @@
 import axios from 'axios';
-import { FETCH_SHOE } from './types';
+import { FETCH_SHOES } from './types';
 
-export const fetchShoe = () => {
-    return function(dispatch) {
-        axios.get('https://v2.jokeapi.dev/joke/Programming?type=twopart').then((res) => {
-            dispatch({ type: FETCH_SHOE, shoe: res.data});
-        });
-    }
-};
+export const fetchShoes = (count) => {
+    return async (dispatch) => {
+        const response = await axios.get(`http://localhost:5001/shoes/random?count=${count}`);
+        console.log(response);
+        dispatch({ type: FETCH_SHOES, payload: response.data});
+    };
+} 

@@ -7,7 +7,7 @@ const Header = () => {
             <div className="nav-wrapper">
             <Link to='/' className="left brand-logo">ShoeMatcher</Link>
             <ul id="nav-mobile" className="right">
-               <Link to="/shoe">Shoes</Link>
+               <Link to="/shoes">Shoes</Link>
             </ul>
             </div>
         </nav>

@@ -1,1 +1,1 @@
-export const FETCH_SHOE = 'fetch_shoe';
+export const FETCH_SHOES = 'fetch_shoes';
