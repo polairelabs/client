@@ -1,1 +1,2 @@
-export const FETCH_SHOES = 'fetch_shoes';
+export const FETCH_SHOES_RANDOM = 'fetch_shoes_random';
+export const FETCH_SHOES_QUERY = 'fetch_shoes_query';

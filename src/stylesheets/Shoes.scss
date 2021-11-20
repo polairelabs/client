@@ -1,0 +1,71 @@
+.searchbox {
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbox_input {
+    width: 50%;
+}
+
+.shoe {
+    display: flex;
+    background-color: #f6f6f6;
+    margin: 20px 0px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.shoe_title:hover {
+    text-decoration: underline;
+}
+
+.shoe:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+}
+
+.shoe_img_container {
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 200px;
+        height: 250px;
+    }
+}
+
+.shoe_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.shoe_description{
+    color: black;
+    font-size: 18px;
+}
+
+.shoe_variations {
+    display: flex;
+}
+
+.variation_img_container {
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 60px;
+        height: 75px;
+    }
+}
+
+.shoe_variation:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
